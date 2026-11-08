@@ -1,0 +1,114 @@
+---
+title: "wald: Wald Tests and Confidence Intervals"
+author: "Ivan Jacob Agaloos Pesigan"
+output: rmarkdown::html_vignette
+bibliography: "vignettes.bib"
+csl: https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl
+nocite: |
+  @RCoreTeam-2026
+vignette: >
+  %\VignetteIndexEntry{wald: Wald Tests and Confidence Intervals}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r}
+#| include = FALSE
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## Description
+
+Wald tests and Wald confidence intervals
+in R [@RCoreTeam-2026].
+Each exported function has an internal version without input checks
+that other projects can copy.
+
+## Installation
+
+You can install the development version of `wald` from
+[GitHub](https://github.com/ijapesigan/wald) with:
+
+```r
+if (!require("pak")) install.packages("pak")
+pak::pkg_install("ijapesigan/wald")
+```
+
+## Example
+
+```{r}
+library(package = "wald")
+```
+
+A linear regression model fitted to the `mtcars` data.
+
+```{r}
+fit <- stats::lm(
+  formula = mpg ~ wt + hp,
+  data = datasets::mtcars
+)
+```
+
+### Tests and Confidence Intervals for Each Parameter
+
+`CIWald()` tests each parameter against `theta`
+and gives Wald confidence intervals
+from the $t$ distribution (`z = FALSE`)
+or the standard normal distribution (`z = TRUE`).
+
+```{r}
+CIWald(
+  est = stats::coef(object = fit),
+  se = sqrt(x = diag(x = stats::vcov(object = fit))),
+  theta = 0,
+  alpha = c(0.05, 0.01),
+  z = FALSE,
+  df = stats::df.residual(object = fit)
+)
+```
+
+With `test = TRUE`, only the tests are returned.
+
+```{r}
+CIWald(
+  est = stats::coef(object = fit),
+  se = sqrt(x = diag(x = stats::vcov(object = fit))),
+  z = TRUE,
+  test = TRUE
+)
+```
+
+### Joint Test of the Slopes
+
+`Wald()` tests the null hypothesis that a vector of parameters
+equals `theta` (zeros when `theta = NULL`),
+from the $\chi^{2}$ distribution.
+
+```{r}
+slopes <- c("wt", "hp")
+Wald(
+  est = stats::coef(object = fit)[slopes],
+  var_est = stats::vcov(object = fit)[slopes, slopes],
+  theta = NULL
+)
+```
+
+### Probabilities of Significance Levels
+
+`ProbsofAlpha()` returns the tail probabilities
+that define two-sided intervals.
+
+```{r}
+ProbsofAlpha(alpha = c(0.05, 0.01, 0.001))
+```
+
+## Documentation
+
+See
+[GitHub Pages](https://ijapesigan.github.io/wald)
+for package documentation.
+
+## References

@@ -1,0 +1,13 @@
+destination: pkgdown
+url: https://ijapesigan.github.io/wald/
+
+template:
+  package: rProject
+
+articles:
+- title: Getting Started
+  contents:
+  - wald
+- title: Session Information
+  contents:
+  - session
