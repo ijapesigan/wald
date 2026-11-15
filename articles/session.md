@@ -30,7 +30,7 @@
 `#> [1] stats     graphics  grDevices utils     datasets  methods   base     `\
 `#> `\
 `#> other attached packages:`\
-`#> [1] wald_0.9.2`\
+`#> [1] wald_0.9.3`\
 `#> `\
 `#> loaded via a namespace (and not attached):`\
 `#> [1] compiler_4.6.2  cli_3.6.6.9000  tools_4.6.2     otel_0.3.0     `\
@@ -43,7 +43,7 @@
 `utils``::`[`installed.packages`](https://rdrr.io/r/utils/installed.packages.html)`(``)``[``, `[`c`](https://rdrr.io/r/base/c.html)`(``"Package"``, ``"Version"``)``]`\
 `#>                   Package             Version     `\
 `#> rProject          "rProject"          "0.0.71"    `\
-`#> wald              "wald"              "0.9.2"     `\
+`#> wald              "wald"              "0.9.3"     `\
 `#> abind             "abind"             "1.4-8"     `\
 `#> Amelia            "Amelia"            "1.8.3"     `\
 `#> arm               "arm"               "1.15-3"    `\
@@ -467,7 +467,7 @@
     #> Core(s) per socket:                   32
     #> Socket(s):                            2
     #> Stepping:                             8
-    #> CPU(s) scaling MHz:                   77%
+    #> CPU(s) scaling MHz:                   96%
     #> CPU max MHz:                          3400.0000
     #> CPU min MHz:                          800.0000
     #> BogoMIPS:                             4200.00
@@ -504,6 +504,6 @@
 ## Memory
 
     #>                total        used        free      shared  buff/cache   available
-    #> Mem:           251Gi        58Gi        83Gi       5.3Gi       116Gi       192Gi
+    #> Mem:           251Gi        43Gi        69Gi       5.8Gi       145Gi       207Gi
     #> Swap:             0B          0B          0B
-    #> Total:         251Gi        58Gi        83Gi
+    #> Total:         251Gi        43Gi        69Gi

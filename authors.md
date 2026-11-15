@@ -11,11 +11,11 @@ Source:
 [`inst/CITATION`](https://github.com/ijapesigan/wald/blob/main/inst/CITATION)
 
 Pesigan, I. J. A. (2026). wald: Wald Tests and Confidence Intervals. R
-package version 0.9.2. https://github.com/ijapesigan/wald
+package version 0.9.3. https://github.com/ijapesigan/wald
 
 @Manual{,\
   author = {Ivan Jacob Agaloos Pesigan},\
   title = {wald: Wald Tests and Confidence Intervals},\
   year = {2026},\
-  note = {R package version 0.9.2},\
+  note = {R package version 0.9.3},\
 }
