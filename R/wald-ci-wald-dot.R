@@ -6,7 +6,7 @@
 #' its two-sided \eqn{p} value,
 #' and Wald confidence intervals,
 #' from the standard normal or the \eqn{t} distribution.
-#' No input checks: see [CIWald()].
+#' No input checks: see `CIWald()`.
 #'
 #' @author Ivan Jacob Agaloos Pesigan
 #'

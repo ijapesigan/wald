@@ -9,7 +9,7 @@
 #' }
 #' and its \eqn{p} value from the \eqn{\chi^{2}} distribution
 #' with degrees of freedom equal to the number of parameters.
-#' No input checks: see [Wald()].
+#' No input checks: see `Wald()`.
 #'
 #' @author Ivan Jacob Agaloos Pesigan
 #'

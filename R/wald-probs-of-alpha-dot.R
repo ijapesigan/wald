@@ -4,7 +4,7 @@
 #' \eqn{\alpha / 2} and \eqn{1 - \alpha / 2}
 #' of each two-sided significance level \eqn{\alpha},
 #' sorted in increasing order.
-#' No input checks: see [ProbsofAlpha()].
+#' No input checks: see `ProbsofAlpha()`.
 #'
 #' @author Ivan Jacob Agaloos Pesigan
 #'
