@@ -34,7 +34,7 @@
 `#> `\
 `#> loaded via a namespace (and not attached):`\
 `#> [1] compiler_4.6.2  cli_3.6.6.9000  tools_4.6.2     otel_0.3.0     `\
-`#> [5] rProject_0.0.71 knitr_1.52      xfun_0.62       rlang_1.3.0    `\
+`#> [5] rProject_0.0.75 knitr_1.52      xfun_0.62       rlang_1.3.0    `\
 `#> [9] evaluate_1.0.5`
 
 ## Packages
@@ -42,7 +42,7 @@
 \
 `utils``::`[`installed.packages`](https://rdrr.io/r/utils/installed.packages.html)`(``)``[``, `[`c`](https://rdrr.io/r/base/c.html)`(``"Package"``, ``"Version"``)``]`\
 `#>                   Package             Version     `\
-`#> rProject          "rProject"          "0.0.71"    `\
+`#> rProject          "rProject"          "0.0.75"    `\
 `#> wald              "wald"              "0.9.3"     `\
 `#> abind             "abind"             "1.4-8"     `\
 `#> Amelia            "Amelia"            "1.8.3"     `\
@@ -56,11 +56,11 @@
 `#> backports         "backports"         "1.5.1"     `\
 `#> base64enc         "base64enc"         "0.1-6"     `\
 `#> bench             "bench"             "1.1.4"     `\
-`#> betaDelta         "betaDelta"         "1.0.7.9000"`\
+`#> betaDelta         "betaDelta"         "1.1.0"     `\
 `#> betaLB            "betaLB"            "0.0.0.9002"`\
 `#> betaMC            "betaMC"            "1.3.4.9001"`\
-`#> betaNB            "betaNB"            "1.0.7.9001"`\
-`#> betaSandwich      "betaSandwich"      "1.0.9.9001"`\
+`#> betaNB            "betaNB"            "1.1.0"     `\
+`#> betaSandwich      "betaSandwich"      "1.1.0"     `\
 `#> BH                "BH"                "1.90.0-1"  `\
 `#> bibtex            "bibtex"            "0.5.3"     `\
 `#> biocmake          "biocmake"          "1.4.0"     `\
@@ -93,7 +93,7 @@
 `#> commonmark        "commonmark"        "2.0.0"     `\
 `#> conflicted        "conflicted"        "1.2.0"     `\
 `#> corpcor           "corpcor"           "1.6.10"    `\
-`#> covr              "covr"              "3.6.5"     `\
+`#> covr              "covr"              "4.0.0"     `\
 `#> cowplot           "cowplot"           "1.2.0"     `\
 `#> cpp11             "cpp11"             "0.5.5"     `\
 `#> crayon            "crayon"            "1.5.3"     `\
@@ -157,7 +157,7 @@
 `#> GauPro            "GauPro"            "0.2.17"    `\
 `#> generics          "generics"          "0.1.4"     `\
 `#> gert              "gert"              "2.5.0"     `\
-`#> ggplot2           "ggplot2"           "4.0.3"     `\
+`#> ggplot2           "ggplot2"           "4.0.4"     `\
 `#> ggrepel           "ggrepel"           "0.9.8"     `\
 `#> gh                "gh"                "1.6.1"     `\
 `#> gifski            "gifski"            "1.32.0-2"  `\
@@ -181,7 +181,7 @@
 `#> hdrcde            "hdrcde"            "3.5.0"     `\
 `#> here              "here"              "1.0.2"     `\
 `#> highr             "highr"             "0.12"      `\
-`#> Hmisc             "Hmisc"             "5.3-0"     `\
+`#> Hmisc             "Hmisc"             "5.3-1"     `\
 `#> hms               "hms"               "1.1.4"     `\
 `#> htmlTable         "htmlTable"         "2.5.0"     `\
 `#> htmltools         "htmltools"         "0.5.9"     `\
@@ -209,7 +209,7 @@
 `#> ks                "ks"                "1.15.3"    `\
 `#> labeling          "labeling"          "0.4.3"     `\
 `#> Lahman            "Lahman"            "14.0-0"    `\
-`#> languageserver    "languageserver"    "0.3.21"    `\
+`#> languageserver    "languageserver"    "0.3.22"    `\
 `#> later             "later"             "1.4.8"     `\
 `#> latex2exp         "latex2exp"         "0.9.8"     `\
 `#> lava              "lava"              "1.11"      `\
@@ -235,7 +235,7 @@
 `#> mclust            "mclust"            "6.1.3"     `\
 `#> memoise           "memoise"           "2.0.1"     `\
 `#> metaDyn           "metaDyn"           "1.0.4"     `\
-`#> metaSEM           "metaSEM"           "1.5.0"     `\
+`#> metaSEM           "metaSEM"           "2.0"       `\
 `#> mice              "mice"              "3.19.0"    `\
 `#> microbenchmark    "microbenchmark"    "1.5.0"     `\
 `#> mime              "mime"              "0.13"      `\
@@ -342,7 +342,7 @@
 `#> roxygen2          "roxygen2"          "8.1.1.9000"`\
 `#> rpf               "rpf"               "1.0.15"    `\
 `#> RPostgres         "RPostgres"         "1.4.10"    `\
-`#> rProject          "rProject"          "0.0.71"    `\
+`#> rProject          "rProject"          "0.0.75"    `\
 `#> rprojroot         "rprojroot"         "2.1.1"     `\
 `#> rsample           "rsample"           "1.3.2"     `\
 `#> RSQLite           "RSQLite"           "3.53.3"    `\
@@ -377,7 +377,7 @@
 `#> styler            "styler"            "1.11.0"    `\
 `#> symSEM            "symSEM"            "0.4"       `\
 `#> sys               "sys"               "3.4.3"     `\
-`#> systemfonts       "systemfonts"       "1.3.2"     `\
+`#> systemfonts       "systemfonts"       "1.3.3"     `\
 `#> tailor            "tailor"            "0.1.0"     `\
 `#> tensorA           "tensorA"           "0.36.2.1"  `\
 `#> testthat          "testthat"          "3.3.2"     `\
@@ -453,57 +453,55 @@
 
 ## CPU
 
-    #> Architecture:                         x86_64
-    #> CPU op-mode(s):                       32-bit, 64-bit
-    #> Address sizes:                        46 bits physical, 57 bits virtual
-    #> Byte Order:                           Little Endian
-    #> CPU(s):                               64
-    #> On-line CPU(s) list:                  0-63
-    #> Vendor ID:                            GenuineIntel
-    #> Model name:                           Intel(R) Xeon(R) Gold 6430
-    #> CPU family:                           6
-    #> Model:                                143
-    #> Thread(s) per core:                   1
-    #> Core(s) per socket:                   32
-    #> Socket(s):                            2
-    #> Stepping:                             8
-    #> CPU(s) scaling MHz:                   96%
-    #> CPU max MHz:                          3400.0000
-    #> CPU min MHz:                          800.0000
-    #> BogoMIPS:                             4200.00
-    #> Flags:                                fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb cat_l3 cat_l2 cdp_l3 invpcid_single cdp_l2 ssbd mba ibrs ibpb stibp ibrs_enhanced fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid cqm rdt_a avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb intel_pt avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local split_lock_detect avx_vnni avx512_bf16 wbnoinvd dtherm ida arat pln pts avx512vbmi umip pku ospke waitpkg avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg tme avx512_vpopcntdq la57 rdpid bus_lock_detect cldemote movdiri movdir64b enqcmd fsrm md_clear serialize tsxldtrk pconfig arch_lbr amx_bf16 avx512_fp16 amx_tile amx_int8 flush_l1d arch_capabilities
-    #> L1d cache:                            3 MiB (64 instances)
-    #> L1i cache:                            2 MiB (64 instances)
-    #> L2 cache:                             128 MiB (64 instances)
-    #> L3 cache:                             120 MiB (2 instances)
-    #> NUMA node(s):                         8
-    #> NUMA node0 CPU(s):                    0-7
-    #> NUMA node1 CPU(s):                    8-15
-    #> NUMA node2 CPU(s):                    16-23
-    #> NUMA node3 CPU(s):                    24-31
-    #> NUMA node4 CPU(s):                    32-39
-    #> NUMA node5 CPU(s):                    40-47
-    #> NUMA node6 CPU(s):                    48-55
-    #> NUMA node7 CPU(s):                    56-63
-    #> Vulnerability Gather data sampling:   Not affected
-    #> Vulnerability Itlb multihit:          Not affected
-    #> Vulnerability L1tf:                   Not affected
-    #> Vulnerability Mds:                    Not affected
-    #> Vulnerability Meltdown:               Not affected
-    #> Vulnerability Mmio stale data:        Not affected
-    #> Vulnerability Reg file data sampling: Not affected
-    #> Vulnerability Retbleed:               Not affected
-    #> Vulnerability Spec rstack overflow:   Not affected
-    #> Vulnerability Spec store bypass:      Mitigation; Speculative Store Bypass disabled via prctl
-    #> Vulnerability Spectre v1:             Mitigation; usercopy/swapgs barriers and __user pointer sanitization
-    #> Vulnerability Spectre v2:             Mitigation; Enhanced / Automatic IBRS; IBPB conditional; RSB filling; PBRSB-eIBRS SW sequence; BHI BHI_DIS_S
-    #> Vulnerability Srbds:                  Not affected
-    #> Vulnerability Tsx async abort:        Not affected
-    #> Vulnerability Vmscape:                Mitigation; IBPB before exit to userspace
+    #> Architecture:                            x86_64
+    #> CPU op-mode(s):                          32-bit, 64-bit
+    #> Address sizes:                           48 bits physical, 48 bits virtual
+    #> Byte Order:                              Little Endian
+    #> CPU(s):                                  32
+    #> On-line CPU(s) list:                     0-31
+    #> Vendor ID:                               AuthenticAMD
+    #> Model name:                              AMD Ryzen 9 9955HX 16-Core Processor
+    #> CPU family:                              26
+    #> Model:                                   68
+    #> Thread(s) per core:                      2
+    #> Core(s) per socket:                      16
+    #> Socket(s):                               1
+    #> Stepping:                                0
+    #> Frequency boost:                         enabled
+    #> CPU(s) scaling MHz:                      50%
+    #> CPU max MHz:                             5060.9761
+    #> CPU min MHz:                             1219.5129
+    #> BogoMIPS:                                4990.49
+    #> Flags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good amd_lbr_v2 nopl xtopology nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate ssbd mba perfmon_v2 ibrs ibpb stibp ibrs_enhanced vmmcall fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid cqm rdt_a avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local user_shstk avx_vnni avx512_bf16 clzero irperf xsaveerptr rdpru wbnoinvd cppc arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload vgif x2avic v_spec_ctrl vnmi avx512vbmi umip pku ospke avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg avx512_vpopcntdq rdpid bus_lock_detect movdiri movdir64b overflow_recov succor smca fsrm avx512_vp2intersect flush_l1d amd_lbr_pmc_freeze
+    #> Virtualization:                          AMD-V
+    #> L1d cache:                               768 KiB (16 instances)
+    #> L1i cache:                               512 KiB (16 instances)
+    #> L2 cache:                                16 MiB (16 instances)
+    #> L3 cache:                                64 MiB (2 instances)
+    #> NUMA node(s):                            1
+    #> NUMA node0 CPU(s):                       0-31
+    #> Vulnerability Gather data sampling:      Not affected
+    #> Vulnerability Indirect target selection: Not affected
+    #> Vulnerability Itlb multihit:             Not affected
+    #> Vulnerability L1tf:                      Not affected
+    #> Vulnerability Mds:                       Not affected
+    #> Vulnerability Meltdown:                  Not affected
+    #> Vulnerability Mmio stale data:           Not affected
+    #> Vulnerability Old microcode:             Not affected
+    #> Vulnerability Reg file data sampling:    Not affected
+    #> Vulnerability Retbleed:                  Not affected
+    #> Vulnerability Spec rstack overflow:      Mitigation; IBPB on VMEXIT only
+    #> Vulnerability Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl
+    #> Vulnerability Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+    #> Vulnerability Spectre v2:                Mitigation; Enhanced / Automatic IBRS; IBPB conditional; STIBP always-on; PBRSB-eIBRS Not affected; BHI Not affected
+    #> Vulnerability Srbds:                     Not affected
+    #> Vulnerability Tsa:                       Not affected
+    #> Vulnerability Tsx async abort:           Not affected
+    #> Vulnerability Vmscape:                   Mitigation; IBPB on VMEXIT
 
 ## Memory
 
     #>                total        used        free      shared  buff/cache   available
-    #> Mem:           251Gi        43Gi        69Gi       5.8Gi       145Gi       207Gi
-    #> Swap:             0B          0B          0B
-    #> Total:         251Gi        43Gi        69Gi
+    #> Mem:            44Gi       4.0Gi        36Gi        33Mi       4.3Gi        40Gi
+    #> Swap:           22Gi          0B        22Gi
+    #> Total:          66Gi       4.0Gi        59Gi
