@@ -1,3 +1,9 @@
+# wald 0.9.4
+
+## Other changes
+
+- A test file for every internal function and check: `.CIWald()`, `.CheckCIWald()`, `.ProbsofAlpha()`, `.Wald()`, `.CheckWald()`.
+
 # wald 0.9.3
 
 ## Patch
