@@ -6,7 +6,7 @@ rproject_version <- "0.0.81"
 # the image: CI runs `image` (a digest), or `image_name`:latest
 # when it has no digest; packages the image lacks come from the
 # Posit Package Manager snapshot of `snapshot`
-image <- "docker.io/ijapesigan/docs@sha256:6245bbd53d94cb0d27c5f14629d5a09c52ee0eb00e342090bc3ae1550786b49c"
+image <- "docker.io/ijapesigan/docs@sha256:98cea82b7b07d462add1afc2b11e890840e07a17210c909d3a67aa266fab582e"
 image_name <- "docker.io/ijapesigan/docs"
 snapshot <- "2026-11-25"
 r_version <- "4.6.2"
