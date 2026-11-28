@@ -469,7 +469,7 @@
     #> Socket(s):                               1
     #> Stepping:                                0
     #> Frequency boost:                         enabled
-    #> CPU(s) scaling MHz:                      47%
+    #> CPU(s) scaling MHz:                      45%
     #> CPU max MHz:                             5060.9761
     #> CPU min MHz:                             1219.5129
     #> BogoMIPS:                                4990.62
